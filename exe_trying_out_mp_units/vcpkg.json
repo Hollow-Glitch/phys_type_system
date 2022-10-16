@@ -1,0 +1,29 @@
+{
+    "name": "learn-opengl",
+    "version-string": "0.0.0",
+    "builtin-baseline":  "8e1f46de11423e5f7d2395458f5252738ffffbbd",
+    "dependencies": [
+        {
+            "name": "fmt",
+            "version>=":  "8.1.1"
+        },
+        {
+            "name": "glfw3",
+            "version>=": "3.3.7"
+        },
+        {
+            "name": "glm",
+            "version>=": "0.9.9.8"
+        },
+        {
+            "name": "glad",
+            "version>=": "0.1.34",
+            "features": ["gl-api-33"]
+        },
+        "ms-gsl",
+        {
+            "name": "mp-units",
+            "version>=":  "0.7.0"
+        }
+    ]
+}
